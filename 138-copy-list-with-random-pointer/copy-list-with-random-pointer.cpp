@@ -27,14 +27,12 @@ public:
             m[ptr] =new Node(ptr->val);
             ptr = ptr->next;
         }
-        ptr = head;
+        ptr = head;    
         while (ptr) {
             m[ptr]->next = m[ptr->next];
             m[ptr]->random = m[ptr->random];
             ptr = ptr->next;
         }
-
         return m[head];
-        
     }
 };
