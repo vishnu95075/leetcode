@@ -5,7 +5,6 @@ public:
         bool vis[n];
         for(int i=0; i<n; i++)
             vis[i] = false;
-        vis[0]=true;
         dfs(vis,rooms,0);
 
         for(int i=0; i<rooms.size(); i++){
