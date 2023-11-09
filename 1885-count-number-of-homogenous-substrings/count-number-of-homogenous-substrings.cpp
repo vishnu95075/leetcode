@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int MOD = 1e9+7;
+    int const MOD = 1e9+7;
 
     int countHomogenous(string s) {
         int ans=0;
